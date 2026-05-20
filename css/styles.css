@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+.logo,
+.header-list,
+.header-list-item {
+  display: inline-block;
+  vertical-align: middle;
+}
+header {
+  height: 88px;
+  position: sticky;
+  top: 0px;
+  z-index: 200;
+  background-color: #fff;
+}
+.logo {
+  margin: 28px 0px 28px 79px;
+}
+.header-list-item {
+  margin-right: 42px;
+}
+.log-in-button {
+  padding: 12px 20px;
+}
+.header-list {
+  margin-left: 700px;
+}
+.log-in-button,
+.hero-button {
+  border-radius: 200px;
+  background-color: #eb662b;
+  color: white;
+  border-style: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.nav-item {
+  font-size: 14px;
+  line-height: 28px;
+  color: #05073c;
+  font-weight: 400;
+}
+.hero-section {
+  width: 100%;
+  height: 702px;
+  background-image: url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.hero-header,
+.hero-par,
+.hero-button {
+  color: #fff;
+}
+.hero-header {
+  font-size: 70px;
+  line-height: 84px;
+  font-weight: 600;
+}
+.hero-par,
+.hero-button,
+.destinations-par {
+  line-height: 28px;
+}
+.hero-par,
+.destinations-par {
+  font-size: 15px;
+  font-weight: 400;
+}
+.hero-par {
+  padding-bottom: 22px;
+  padding-top: 8px;
+}
+.hero-button {
+  padding: 12px 14px;
+}
+.text-wrapper {
+  text-align: center;
+  width: 630px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.city-img {
+  display: inline;
+}
+
+.destinations {
+  width: 1320px;
+  margin: 100px auto;
+}
+.img-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+}
+.destinations-header {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 45px;
+  color: #05073c;
+  padding: 7px 0px 45px 15px;
+}
+.destinations-par {
+  display: inline-block;
+  padding-left: 810px;
+  padding-bottom: 25px;
+}
+.city {
+  position: absolute;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #fff;
+}
+.paris{
+  top: 15px;
+  left: 12px;
+}
+.singapore,
+.roma,
+.phuket,
+.tokyo{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bangkok{
+  top: 12px;
+  left: 221px;
+}
+.bali{
+  top: 143px;
+  left: 12px;
+}
+.cappadocia{
+  top: 141px;
+  left: 192px;
+}
+.scroll-up{
+  width: 40px;
+  height: 40px;
+  padding: 10px 10px;
+  margin: 10px 20px 40px 1400px;
+  border-radius: 50%;
+  background-color: #b5c5f0;
+  position: fixed;
+  bottom: 0;
+}
